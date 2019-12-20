@@ -1,0 +1,8 @@
+# Block fluttersite from https://sarveshpathak8080.github.io/fluttersite.github.io/ and https://sarveshpathak8080.github.io/fluttersite.github.io/
+# All other directories on the site are allowed by default.
+User-agent: fluttersite 
+Allow: /index.html
+
+# Block the entire site from anothercrawler.
+User-agent: anothercrawler
+Disallow: /
